@@ -1,8 +1,8 @@
 package main
 
 import (
-	"coingecko/handler"
-	pb "coingecko/proto"
+	"github.com/go-defi-services/pkg/services/coingecko/handler"
+	pb "github.com/go-defi-services/pkg/services/coingecko/proto"
 
 	"github.com/micro/micro/v3/service"
 	"github.com/micro/micro/v3/service/logger"
