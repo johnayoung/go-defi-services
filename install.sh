@@ -17,7 +17,7 @@ micro env set local
 micro login --username=$USERNAME --password=$PASSWORD
 
 # run services
-for api in coingecko; do
+for api in coingecko evm; do
 	if ! $(micro auth list rules | grep -q ^${api}); then
 		## generate an auth rule to open the api
 		micro auth create rule --resource=service:$api:* --access=granted --priority=1 $api
