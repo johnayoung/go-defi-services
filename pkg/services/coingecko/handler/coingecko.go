@@ -5,7 +5,7 @@ import (
 
 	log "github.com/micro/micro/v3/service/logger"
 
-	pb "coingecko/proto"
+	pb "github.com/johnayoung/go-defi-services/pkg/services/coingecko/proto"
 )
 
 type Coingecko struct{}
